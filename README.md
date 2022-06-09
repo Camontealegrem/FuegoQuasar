@@ -3,6 +3,8 @@
 Se realizó desarrolla un servicio de integración en spring boot, como gestor de dependencias se una la herramienta Maven, la versión de java es 1.8, se aplica Lombok para agilizar desarrollo, se una google formater para facilitar la lectura del código, las pruebas de unidad se desarrollan con Junit 4 y Mockito, para el desarrollo fuerte de la lógica se implementa la librería Trilateration para la triangulación de las coordenadas.
 La aplicación se despliega en Heroku que presta una fácil accesibilidad de servicios en la nube.
 
+La prueba se trabajó bajo el los principios de diseño SOLID, para dividir cada una de las responsabilidades dentro del flujo, uso de herencia, sobrecarga de métodos, uso de interfaces e implentaciones. 
+
 ## Clonación y Ejecución 
 Clonar el proyecto, se debe contar con el JDK 1.8 JDK DOWNLOAD , Maven, mvn DOWNLOAD, lombok https://projectlombok.org/ desplegar la aplicación en Eclipse o STS, Compilar dependencia e iniciar el proyecto, las peticiones HTTP estarán expuestas, podrán ser gestadas mediante https://www.postman.com/  para la ejecución de manera local.
 
